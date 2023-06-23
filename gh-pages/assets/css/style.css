@@ -1,0 +1,401 @@
+body{
+  position: relative;
+  background: #bfefff;
+}
+
+/*Home Page*/
+
+#title{
+  display: table;
+  margin: auto;
+}
+
+.title{
+  text-align: center;
+  float: left;
+}
+
+#t1{
+  font-family: 'Chewy', cursive;
+  font-size: 144px;
+  color:black;
+}
+
+#t2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 118px;
+  color:black;
+}
+
+
+
+#row1{
+  display: table;
+  margin: auto;
+}
+
+#row2{
+  display: table;
+  margin: auto;
+}
+
+.row1{
+  float: left;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: white;
+  background-color: #008b8b;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.row2{
+  float: left;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: white;
+  background-color: #008b8b;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+#map{
+  float: right;
+  text-align: center;
+  background-color: #a2cd5a;
+  color: white;
+  padding: 2px;
+  padding-top: 4px;
+  position: absolute;
+  bottom: 18px;
+  right: 12px;
+  width: 120px;
+  height: 46px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.link_class{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:click {
+  color: white;
+  text-decoration: none;
+}
+
+
+/*Sweetheart's*/
+
+#images{
+  float: left;
+}
+
+#description{
+  position: absolute;
+  float: left;
+  left: 512px;
+  width: 720px;
+}
+
+#shop_name{
+  font-family: "Oswald", sans-serif;
+  font-size: 96px;
+  text-align: center;
+}
+
+#shop_info{
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#link_button{
+  background: #a2cd5a;
+  width: 108px;
+  display: table;
+  margin: auto;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+#review{
+  width: 660px;
+  display: table;
+  margin: auto;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#fav_title{
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+.favorite1{
+  float: left;
+  margin-right: 32px;
+  margin-top: 16px;
+  margin-left: 54px;
+  text-align: center;
+  color: white;
+  background-color: #008b8b;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  position: relative;
+}
+
+
+.favorite2{
+  float: left;
+  margin-right: 32px;
+  margin-top: 16px;
+  margin-left: 54px;
+  text-align: center;
+  color: white;
+  background-color: #008b8b;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  position: relative;
+}
+
+
+.favorite3{
+  float: left;
+  margin-right: 32px;
+  margin-top: 16px;
+  margin-left: 54px;
+  text-align: center;
+  color: white;
+  background-color: #008b8b;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  position: relative;
+}
+
+.fav_image1{
+  float: left;
+  width: 150px;
+  line-height: 150px;
+  border-radius: 100px;
+  overflow: hidden;
+  position: absolute;
+  margin-right: 32px;
+  margin-top: 16px;
+  margin-left: 54px;
+  display: none;
+}
+
+.fav_image2{
+  float: left;
+  width: 150px;
+  line-height: 150px;
+  border-radius: 100px;
+  overflow: hidden;
+  position: absolute;
+  margin-right: 32px;
+  margin-top: 16px;
+  margin-left: 290px;
+  display: none;
+}
+
+.fav_image3{
+  float: left;
+  width: 150px;
+  line-height: 150px;
+  border-radius: 100px;
+  overflow: hidden;
+  position: absolute;
+  margin-right: 32px;
+  margin-top: 16px;
+  margin-left: 526px;
+  display: none;
+}
+
+/*Map View*/
+
+#search{
+  width: 240px;
+  height: 330px;
+  padding: 24px;
+  padding-top: 12px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  background: #a2cd5a;
+  color: white;
+  position: absolute;
+}
+
+#search_title{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+
+.button{
+  margin: 18px;
+  margin-left: 0px;
+  width: 80px;
+  height: 24px;
+  background: #008b8b;
+  border: none;
+  color: white;
+}
+
+#key{
+  width: 120px;
+  height: 200px;
+  padding: 18px;
+  background: #a2cd5a;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  display: inline-block;
+  top: 300px;
+  left: 1000px;
+}
+
+.closest{
+  display: none;
+}
+
+#map_border{
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  top: -10px;
+  width: 580px;
+  line-height: 580px;
+  border-radius: 1000px;
+  text-align: center;
+  background: #008b8b;
+  position: absolute;
+}
+
+.map{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+  width: 550px;
+  line-height: 550px;
+  border-radius: 1000px;
+  overflow: hidden;
+  background: none;
+  position: relative;
+  color: white;
+  z-index: 100;
+}
+
+.marker{
+  width: 12px;
+  height: 12px;
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+  padding: 3px;
+  color: white;
+}
+
+#ucha {
+    position: absolute;
+    top: 365px;
+    left: 120px;
+}
+
+#bobaninja {
+    position: absolute;
+    top: 360px;
+    left: 300px;
+}
+
+#ucafe {
+    position: absolute;
+    top: 375px;
+    left: 335px;
+}
+
+#plentea {
+    position: absolute;
+    top: 385px;
+    left: 270px;
+}
+
+#sweetheart {
+    position: absolute;
+    top: 360px;
+    left: 320px;
+}
+
+#sharetea {
+    position: absolute;
+    top: 360px;
+    left: 255px;
+}
+
+#quicklys {
+    position: absolute;
+    top: 155px;
+    left: 270px;
+}
